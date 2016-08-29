@@ -24,7 +24,7 @@ Below are two simple Excel tables, which will be joined using the customer infor
 
 ### Base Table
 
-![Alt text](yvonneglanville/joinXL/vignettes/customeraccounts.png)
+![Alt text](yvonneglanville/master/joinXL/vignettes/customeraccounts.png)
 
 ### Join Table
 
