@@ -57,8 +57,8 @@ minusXL
 
 The minusXL function allows the direct comparison of the rows of two tables. This function is called in the same manner as the joins. A dialog window for the input of two files opens, and then there are prompts at the console for the designation of a source file and and the common column in each file. Two operations are then performed on the tables.
 
-**Operation 1.** source file-minus-target file outputs rows found in source file but missing from target
-**Operation 2.** target file-minus-source file outputs rows found in target file but missing from base
+**Operation 1.** source file-minus-target file outputs rows found in source file but missing from target    
+**Operation 2.** target file-minus-source file outputs rows found in target file but missing from base    
 
 If the source and the target '.xlsx' files are identical, then the output files will be empty.
 --------------------------------------------------------------------------------------------
