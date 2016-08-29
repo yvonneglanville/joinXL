@@ -1,0 +1,81 @@
+---
+title: "joinXL Functions"
+author: "Yvonne Glanville"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{joinXL Functions}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+## fulljoinXL
+**fulljoinXL()** will open a dialog box, which allows 2 .xlsx or .xls files to be opened.   
+
+![Alt text](C:\Users\a593215\Documents\joinXL\vignettes\selecttwofiles.png)   
+Follow prompts at the console to manipulate files.   
+Prompt: Which file is your base (1 or 2)?   
+**The values in the rows of the base file take precedence over those in the join file.**   
+
+In this example, customeraccounts.xlsx is the base file. 
+A common join column must be chosen for each file. This allows common columns with 
+different naming conventions to be joined. In the base file, column 1 is chosen as the join key 
+and the common column in the join file is column 4.  
+Both are customer IDs, but the column names are slightly different.   
+
+![Alt text](C:\Users\a593215\Documents\joinXL\vignettes\customeraccounts.png)       
+The joined files are saved to **full_join.xlsx** in the working directory.   
+
+Below are the two original Excel files and the output of the full join.
+
+**customeraccounts.xlsx**
+![Alt text](C:\Users\a593215\Documents\joinXL\vignettes\customeraccounts.png "Customer Account File")  **orders.xlsx** 
+
+
+
+![Alt text](C:\Users\a593215\Documents\joinXL\vignettes\orders.png "Orders File")  
+
+
+**full_join.xlsx**
+![Alt text](C:\Users\a593215\Documents\joinXL\vignettes\fulljoin.png "Full Join")    
+---
+
+## leftjoinXL, rightjoinXL, and innerjoinXL output
+
+**leftjoinXL()**, **rightjoinXL()**, and **innerjoinXL()** were run in the same manner as fulljoinXL() above. 
+The same 2 input files were joined on the primary key, customer ID, and the file 
+customeraccounts.xlsx was the base. Below are the outputs of each join.
+
+
+### leftjoinXL()
+![Alt text](C:\Users\a593215\Documents\joinXL\vignettes\leftjoin.png) 
+---
+### rightjoinXL()
+![Alt text](C:\Users\a593215\Documents\joinXL\vignettes\rightjoin.png)   
+---
+### innerjoinXL()
+![Alt text](C:\Users\a593215\Documents\joinXL\vignettes\innerjoin.png)   
+---
+
+## Minus Query   
+
+###**minusXL()** performs 2 operations on 2 Excel files.   
+
+**Operation 1.** source file-minus-target file   
+**Operation 2.** target file-minus-source file   
+
+The Excel files are opened using the dialog box. At the console a source file is chosen,
+and common columns in the source and target files are selected.   
+
+**Output at the console**   
+1. Preview of source file-minus-target file   
+2. Preview of target file-minus-source file   
+3. Preview of source file-minus-target file + target file-minus-source file   
+
+**Output in working directory**   
+sourcemMINUStarget.xlsx   
+targetMINUSsource.xlsx   
+rowsNOTduplicated.xlsx   
+
+###**If the source and the target .xlsx files are identical, then the output files will be empty.**
+
