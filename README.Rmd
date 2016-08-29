@@ -26,29 +26,29 @@ Below are two simple Excel tables, which will be joined using the customer infor
 on the relational **key** customer ID. 
 
 ###Base Table
-![Alt text](C:\Users\a593215\Documents\figures\customeraccounts.png)
+![Alt text](C:\Users\a593215\Documents\joinXL\vignettes\customeraccounts.png)
 
 ###Join Table
-![Alt text](C:\Users\a593215\Documents\figures\orders.png)
+![Alt text](C:\Users\a593215\Documents\joinXL\vignettes\orders.png)
 
 Once the joinXL package is installed (described below), **each join can be called at the console by typing the function 
 name with parenthesis after the name and hitting enter. There is no need to put file information within the parenthesis because the function will open a dialog box.** Choose 2 files, and then follow the console prompts to designate a base file, and choose the common column in the base and join files. A column is chosen from each file to accomadate inconsistent naming conventions. A joined file is then output to the working directory.
 
 ##innerjoinXL
 An inner join will output only the rows common to both the base and the join file with respect to the **key**. Type **innerjoinXL()** at the console and press enter. This example uses the customer account table as the base and joins the orders table on the common column, customer ID.  The output is written to the file, inner_join.xlsx.
-![Alt text](C:\Users\a593215\Documents\figures\innerjoin.png)
+![Alt text](C:\Users\a593215\Documents\joinXL\vignettes\innerjoin.png)
 
 ##leftjoinXL
 A left join outputs all columns from the base file along with common row information from the join file based upon the column key, and is written to left_join.xlsx.
-![Alt text](C:\Users\a593215\Documents\figures\leftjoin.png)
+![Alt text](C:\Users\a593215\Documents\joinXL\vignettes\leftjoin.png)
 
 ##rightjoinXL
 A right join outputs all columns from the join file along with common row information from the base file dependent upon the column key. The output is written to right_join.xlsx. In this case the results are the same as the inner join function, but this is due to the table entries not the joins themselves.
-![Alt text](C:\Users\a593215\Documents\figures\rightjoin.png)
+![Alt text](C:\Users\a593215\Documents\joinXL\vignettes\rightjoin.png)
 
 ##fulljoinXL
 A full join outputs all rows from both the base and the join files, and is written to full_join.xlsx.
-![Alt text](C:\Users\a593215\Documents\figures\fulljoin.png)
+![Alt text](C:\Users\a593215\Documents\joinXL\vignettes\fulljoin.png)
 
 
 ##minusXL 
