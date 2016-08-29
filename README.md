@@ -63,12 +63,12 @@ The minusXL function allows the direct comparison of the rows of two tables. Thi
 If the source and the target '.xlsx' files are identical, then the output files will be empty.
 --------------------------------------------------------------------------------------------
 
-**Output at the console**
-1. Preview of source file-minus-target file
-2. Preview of target file-minus-source file
-3. Preview of source file-minus-target file + target file-minus-source file
+**Output at the console**   
+1. Preview of source file-minus-target file     
+2. Preview of target file-minus-source file    
+3. Preview of source file-minus-target file + target file-minus-source file    
 
-**Output in working directory**
-'sourcemMINUStarget.xlsx'
-'targetMINUSsource.xlsx'
-'rowsNOTduplicated.xlsx'
+**Output in working directory**    
+'sourcemMINUStarget.xlsx'    
+'targetMINUSsource.xlsx'    
+'rowsNOTduplicated.xlsx'    
