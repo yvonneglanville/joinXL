@@ -72,3 +72,6 @@ If the source and the target '.xlsx' files are identical, then the output files 
 'sourcemMINUStarget.xlsx'    
 'targetMINUSsource.xlsx'    
 'rowsNOTduplicated.xlsx'    
+
+
+[![Travis-CI Build Status](https://travis-ci.org/yvonneglanville/joinXL.svg?branch=master)](https://travis-ci.org/yvonneglanville/joinXL)
