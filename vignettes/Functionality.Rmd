@@ -9,57 +9,23 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 
-## fulljoinXL
-**fulljoinXL()** will open a dialog box, which allows 2 .xlsx or .xls files to be opened.   
+## joinXL  functions perform 'SQL' type joins of 'Excel' files    
 
-![Alt text](C:\Users\a593215\Documents\joinXL\vignettes\selecttwofiles.png)   
+Calling any of these functions **fulljoinXL()**, **leftjoinXL()**, **rightjoinXL()**, **innerjoinXL()** 
+will open a dialog box, which allows 2 '.xlsx' or '.xls' files to be opened.   
+
 Follow prompts at the console to manipulate files.   
-Prompt: Which file is your base (1 or 2)?   
+Console Prompt: Which file is your base (1 or 2)?   
 **The values in the rows of the base file take precedence over those in the join file.**   
 
-In this example, customeraccounts.xlsx is the base file. 
 A common join column must be chosen for each file. This allows common columns with 
-different naming conventions to be joined. In the base file, column 1 is chosen as the join key 
-and the common column in the join file is column 4.  
-Both are customer IDs, but the column names are slightly different.   
-
-![Alt text](C:\Users\a593215\Documents\joinXL\vignettes\customeraccounts.png)       
-The joined files are saved to **full_join.xlsx** in the working directory.   
-
-Below are the two original Excel files and the output of the full join.
-
-**customeraccounts.xlsx**
-![Alt text](C:\Users\a593215\Documents\joinXL\vignettes\customeraccounts.png "Customer Account File")  **orders.xlsx** 
-
-
-
-![Alt text](C:\Users\a593215\Documents\joinXL\vignettes\orders.png "Orders File")  
-
-
-**full_join.xlsx**
-![Alt text](C:\Users\a593215\Documents\joinXL\vignettes\fulljoin.png "Full Join")    
+different naming conventions to be joined. 
+ 
 ---
-
-## leftjoinXL, rightjoinXL, and innerjoinXL output
-
-**leftjoinXL()**, **rightjoinXL()**, and **innerjoinXL()** were run in the same manner as fulljoinXL() above. 
-The same 2 input files were joined on the primary key, customer ID, and the file 
-customeraccounts.xlsx was the base. Below are the outputs of each join.
-
-
-### leftjoinXL()
-![Alt text](C:\Users\a593215\Documents\joinXL\vignettes\leftjoin.png) 
----
-### rightjoinXL()
-![Alt text](C:\Users\a593215\Documents\joinXL\vignettes\rightjoin.png)   
----
-### innerjoinXL()
-![Alt text](C:\Users\a593215\Documents\joinXL\vignettes\innerjoin.png)   
----
-
 ## Minus Query   
 
-###**minusXL()** performs 2 operations on 2 Excel files.   
+Calling **minusXL()** opens a dialog box, which allows 2 '.xlsx' or '.xls' files to be opened.
+At the console choose the source file, and then 2 operations are performed on the files.   
 
 **Operation 1.** source file-minus-target file   
 **Operation 2.** target file-minus-source file   
