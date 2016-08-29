@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 # R for travis: see documentation at https://docs.travis-ci.com/user/languages/r
 
 language: R
 sudo: false
 cache: packages
+=======
+# R for travis: see documentation at https://docs.travis-ci.com/user/languages/r
+
+language: R
+sudo: false
+cache: packages
+>>>>>>> c46657ac37c2eeb9cbe74d27c6a0ab1d382b5e49
