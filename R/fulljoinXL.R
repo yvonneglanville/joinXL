@@ -28,6 +28,11 @@
 #' @importFrom data.table data.table
 #' @import R.utils
 #' @import rChoiceDialogs
+#' @import rJava
+#' @import Rcpp
+#' @import graphics
+#' @import grDevices
+#' @import stats
 
 
 fulljoinXL <- function(){

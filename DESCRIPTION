@@ -20,7 +20,13 @@ Imports:
     timeSeries (>= 3022.101.2),
     data.table (>= 1.9.6),
     rChoiceDialogs(>=	1.0.6),
-    R.utils(>= 2.3.0)
+    R.utils(>= 2.3.0),
+    rJava (>= 0.9-8),
+    graphics (>= 3.3.1),
+    Rcpp (>= 0.11.1),
+    grDevices (>= 3.3.1),
+    stats (>= 3.3.1),
+    timeDate (>= 2150.95)
 VignetteBuilder: knitr
 License: GPL-3
 Encoding: UTF-8

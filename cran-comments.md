@@ -2,7 +2,7 @@
 This is a resubmission. In this version I have
 * Removed problem words in DESCRIPTION file
 * Removed hidden file .RDataTmp
-* Moved vignette figures to vignette folder
+* Removed vignette figures 
 * Removed Filters due to platform dependence
 * Tested environment R Under development (unstable)
 
