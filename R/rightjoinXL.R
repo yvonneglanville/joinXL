@@ -39,7 +39,7 @@
 rightjoinXL <- function(){
 
   file_a <- rchoose.files(default = getwd(), caption = "Select 2 files",
-                          multi = TRUE)
+                          multi = TRUE, Filters = NULL)
 
   print(file_a)
   n <- readline("Which file is your base (1 or 2)? ")
