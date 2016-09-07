@@ -26,6 +26,7 @@
 #' @seealso \code{\link{innerjoinXL}} for SQL type inner join, \code{\link{leftjoinXL}} for SQL type left join,
 #' \code{\link{rightjoinXL}} for SQL type right join, \code{\link{fulljoinXL}} for SQL type full join
 #'
+#' @export minusXL
 #' @importFrom readxl read_excel
 #' @importFrom timeSeries merge
 #' @importFrom timeSeries head
