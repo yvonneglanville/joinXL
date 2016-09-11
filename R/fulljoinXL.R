@@ -38,7 +38,7 @@
 
 fulljoinXL <- function(){
 
-  file_a <- rchoose.files(default = ge,twd(), caption = "Select 2 files",
+  file_a <- rchoose.files(default = getwd(), caption = "Select 2 files",
                           multi = TRUE)
 
   print(file_a)

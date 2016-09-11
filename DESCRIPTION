@@ -1,6 +1,6 @@
 Package: joinXL
 Title: Perform Joins or Minus Queries on 'Excel' Files
-Version: 1.0.0
+Version: 1.0.1
 Authors@R: person("Yvonne", "Glanville", email = "yvonneglanville@gmail.com", role = c("aut", "cre"))
 Description: Performs Joins and Minus Queries on 'Excel' Files
     fulljoinXL() Merges all rows of 2 'Excel' files based upon a common column in the files.
