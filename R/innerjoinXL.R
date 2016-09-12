@@ -22,6 +22,11 @@
 #' \code{\link{rightjoinXL}} for SQL type right join, \code{\link{minusXL}} for file1 minus file2
 #'
 #'
+#' @examples
+#' \dontrun{
+#' innerjoinXL();
+#' }
+#'
 #' @export innerjoinXL
 #' @importFrom readxl read_excel
 #' @importFrom timeSeries merge

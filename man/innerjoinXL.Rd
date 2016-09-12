@@ -15,6 +15,12 @@ Merges all rows from base file and join file if the join condition is met. Choos
 2 files via dialog box. Prompted at the console to make 1 file a base file.
 Prompted to choose a column from each Excel file to use as the join condition.
 }
+\examples{
+\dontrun{
+innerjoinXL();
+}
+
+}
 \author{
 Yvonne Glanville, \email{yvonneglanville@gmail.com}
 }

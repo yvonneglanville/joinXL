@@ -15,6 +15,12 @@ Selects all rows from the base file, and all rows from the join file if the join
 condition is met. Choose 2 files via dialog box. Prompted at the console to make 1 file
 a base file. Prompted to choose a column from each Excel file to use as the join condition.
 }
+\examples{
+\dontrun{
+leftjoinXL();
+}
+
+}
 \author{
 Yvonne Glanville, \email{yvonneglanville@gmail.com}
 }

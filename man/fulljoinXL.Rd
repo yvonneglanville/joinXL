@@ -15,6 +15,12 @@ Merges all rows of 2 Excel files based upon a common column in each file.
 Choose 2 files via dialog box. Prompted at the console to make 1 file a base file.
 Prompted to choose a column from each Excel file to use as the join condition.
 }
+\examples{
+\dontrun{
+fulljoinXL();
+}
+
+}
 \author{
 Yvonne Glanville, \email{yvonneglanville@gmail.com}
 }

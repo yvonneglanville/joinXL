@@ -22,6 +22,11 @@
 #' type left join, \code{\link{fulljoinXL}} for SQL type full join, \code{\link{minusXL}} for
 #' file1 minus file2
 #'
+#' @examples
+#' \dontrun{
+#' rightjoinXL();
+#' }
+#'
 #' @export rightjoinXL
 #' @importFrom readxl read_excel
 #' @importFrom timeSeries merge

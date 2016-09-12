@@ -21,6 +21,10 @@
 #' @seealso \code{\link{innerjoinXL}} for SQL type inner join, \code{\link{fulljoinXL}} for SQL type full join,
 #' \code{\link{rightjoinXL}} for SQL type right join, \code{\link{minusXL}} for file1 minus file2
 #'
+#' @examples
+#' \dontrun{
+#' leftjoinXL();
+#' }
 #'
 #' @export leftjoinXL
 #' @importFrom readxl read_excel

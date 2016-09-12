@@ -19,6 +19,13 @@ Choose 2 files via dialog box, and then from the console choose the common colum
    "target_minus_source.xlsx"
    "rowsNOTduplicated.xlsx"
 }
+\examples{
+\dontrun{
+minusXL();
+}
+
+
+}
 \author{
 Yvonne Glanville, \email{yvonneglanville@gmail.com}
 }
